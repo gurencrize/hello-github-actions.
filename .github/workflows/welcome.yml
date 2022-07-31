@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [opened]
 jobs:
-  build:
+  on_start:
     name: Post welcome comment
     runs-on: ubuntu-latest
     steps:
